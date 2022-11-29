@@ -1,0 +1,5 @@
+title: test
+module:
+  mounts:
+  - source: "content/README.md"
+    target: "content/_index.md"

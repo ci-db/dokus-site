@@ -1,0 +1,22 @@
+version: "3.9"
+services:  
+  hugo:
+    container_name: "hugo"
+    image: monachus/hugo
+    volumes:
+      - ".:/usr/share/blog"
+    command: hugo -b http://localhost:9080/ --config config.toml,themes/hugo-cidb-dokus/config/config.toml --watch
+    user: "1000"
+  web:
+    container_name: "hugo_web"
+    image: nginx:latest
+    ports:
+        - "9080:9080"
+    volumes:
+        - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+        - ./public:/app
+  php:
+    container_name: "hugo_php"
+    image: php:fpm
+    volumes:
+        - ./public:/app
