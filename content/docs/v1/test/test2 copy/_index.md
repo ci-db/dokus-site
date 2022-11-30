@@ -1,7 +1,6 @@
 ---
-title: index
-type: _default
-layout: single
+title: copy
+
 
 ---
 # Lorem bla
