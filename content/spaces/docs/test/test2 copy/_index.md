@@ -1,5 +1,5 @@
 ---
-title: index page
+title: index
 type: _default
 layout: single
 
