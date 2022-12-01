@@ -1,0 +1,3 @@
+[submodule "themes/hugo-cidb-dokus"]
+	path = themes/hugo-cidb-dokus
+	url = git@github.com:ci-db/hugo-cidb-dokus.git
