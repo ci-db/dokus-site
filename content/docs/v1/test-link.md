@@ -1,9 +1,9 @@
 ---
 title: test-link
-weight: 1
+weight: 100
 #url: /docs/test2
 
-content_from: /docs/test2
+content_from: /docs/v1/test2
 
 ---
 # test
