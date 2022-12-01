@@ -1,4 +1,4 @@
 ---
-title: test cat2
-weight: 10
+title: cat1-2
+weight: 2
 ---
