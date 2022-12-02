@@ -1,9 +1,9 @@
 ---
 title: index page
-#type: docs
+#type: doc
 #layout: list
 #cascade:
-#  type: docs/doc
+#  type: doc/page
 
 #printLink: true
 ---

@@ -1,5 +1,5 @@
 ---
 title: index page
-type: docs
+type: doc
 layout: single
 ---

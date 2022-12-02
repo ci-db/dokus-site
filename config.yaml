@@ -2,19 +2,29 @@ title: "Dokus Theme"
 theme: "hugo-cidb-dokus"
 baseURL: https://ci-db.github.io/dokus-site/
 
-
 cascade:
   - _target:
-      path: "**/docs/_index.md"
-    type: docs    
+      path: "**/doc/_index.md"
+    type: doc    
 
   - _target:
-      path: "**/docs/**"
+      path: "**/doc/**"
       kind: Page
-    type: docs/doc
+    type: doc/page
 
   - _target:
-      path: "**/docs/*/**"
+      path: "**/doc/*/**"
       kind: Section
-    type: docs/doc
+    type: doc/page
+
+  - _target:
+      path: "**/spaces/_index.md"
+    type: spaces    
+
+  - _target:
+      path: "**/spaces/*"
+      kind: Section      
+    type: spaces    
+
+
 

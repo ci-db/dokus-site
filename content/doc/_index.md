@@ -1,13 +1,13 @@
 ---
 title: index page
-#type: docs/doc
+#type: doc/page
 #layout: list
 #cascade:
 #- _target:
 #    kind: page
 #    lang: en
-#    path: /docs/**
-#  type: docs/doc
+#    path: /doc/**
+#  type: doc/page
 
 printLink: true
 ---
