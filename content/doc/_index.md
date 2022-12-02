@@ -1,5 +1,5 @@
 ---
-title: index page
+title: doc index
 #type: doc/page
 #layout: list
 #cascade:
