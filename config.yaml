@@ -14,3 +14,18 @@ cascade:
       path: "**/doc/**"
     type: doc
     layout: single
+  - _target:
+      path: "**/v/*/**"
+    type: doc
+    layout: single
+
+
+
+  - _target:
+      path: "**/v/*"
+    type: versions
+    layout: list
+
+
+
+
